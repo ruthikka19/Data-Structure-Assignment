@@ -37,8 +37,17 @@ A simulation of a printer queue using a queue data structure with interactive me
   - Display pending documents
 - **Interactive menu-driven system**
 
-### Q5.c - (Empty/To be completed)
-Reserved for future implementation.
+### Q5.c - Circular Queue System
+A complete implementation of a circular queue with all basic operations.
+- **Concept:** FIFO with circular buffer to optimize memory usage
+- **Size:** MAX = 5 elements
+- **Features:**
+  - Enqueue: Add elements to the queue
+  - Dequeue: Remove elements from the queue
+  - Peek: View front element
+  - Display: Show all queue elements
+  - Check if queue is empty or full
+- **Interactive menu-driven system** with user input
 
 ## How to Compile and Run
 
@@ -72,3 +81,4 @@ Ruthikka
 
 ## Version
 1.0 - Initial commit with Q1-Q4 programs
+2.0 - Added Q5 Circular Queue implementation
