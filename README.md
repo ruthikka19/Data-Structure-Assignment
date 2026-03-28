@@ -1,3 +1,9 @@
+**Name:** Ruthikka Arunkumar  
+**Roll No.:** 33  
+**Course:** DSA (Data Structure and Algorithms)
+
+---
+
 # Data Structure Assignment
 
 A collection of fundamental data structure implementations in C, covering stacks, queues, and related algorithms.
