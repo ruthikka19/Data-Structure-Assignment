@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
 #define MAX 100
-
-
 char queue[MAX][50];
 int front = -1, rear = -1;
 int isEmpty() {

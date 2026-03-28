@@ -1,19 +1,14 @@
 #include <stdio.h>
 #include <string.h>
-
 #define MAX 100
-
 int main() {
     char expr[MAX];
     char stack[MAX];
     int top = -1;
     int balanced = 1;
-
     printf("Enter an expression: ");
     scanf("%s", expr);
-
     int n = strlen(expr);
-
     for (int i = 0; i < n; i++) {
 
        
@@ -43,8 +38,6 @@ int main() {
             }
         }
     }
-
-    
     if (top != -1) {
         balanced = 0;
     }

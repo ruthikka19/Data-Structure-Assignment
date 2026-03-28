@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 #define MAX 100
-
 int main() {
     int arr[MAX], nge[MAX], stack[MAX];
     int n, top = -1;
@@ -14,8 +12,6 @@ int main() {
         scanf("%d", &arr[i]);
         nge[i] = -1;  
     }
-
-  
     for (int i = 0; i < n; i++) {
 
         
@@ -28,12 +24,9 @@ int main() {
         top++;
         stack[top] = i;
     }
-
-    
     printf("\nNext Greater Element:\n");
     for (int i = 0; i < n; i++) {
         printf("%d → %d\n", arr[i], nge[i]);
     }
-
     return 0;
 }
